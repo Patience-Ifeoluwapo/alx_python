@@ -1,4 +1,7 @@
-def add (a, b):
+#!/usr/bin/env python
+def add(a, b):
     return (a + b)
-result = add(1, 2), add(98, 0), add(100, -2)
-print(result)
+print(add(1, 2))
+print(add(98, 0))
+print(add(-100, -2))
+print(add(0, 0))
